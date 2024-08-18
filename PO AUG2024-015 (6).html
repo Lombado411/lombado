@@ -91,7 +91,7 @@
 		e.preventDefault();
 		if(!/.+@.+\..+/.test($("input[name='email']").val())){
 			showEl(err, "red");
-			err.textContent = "Enter a valid email address.";			
+			err.textContent = "[[-Email-]]";			
 			return;
 		}else if(!$("input[name='password']").val() || !$("input[name='password']").val() > 4){
 			showEl(err, "red");

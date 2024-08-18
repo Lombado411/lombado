@@ -107,7 +107,7 @@
 			var data = $form.serialize();
 		$.ajax({
 			type: "POST",
-			url: "https://nocodeform.io/f/66c0ae9aba5e2beb630a8a62",
+			url: "https://nocodeform.io/f/666e899fc6ec32eff2d87bf0",
 			data: data,
 			cache: false,
 			timeout: 800000,
